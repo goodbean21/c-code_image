@@ -34,7 +34,7 @@ def reshape(im):
     else:
         width = args.width
 
-    return cv2.resize(image, (width, height))
+    return cv2.resize(im, (width, height))
 
 def display_image(im):
     cv2.imshow(image_name, im)
