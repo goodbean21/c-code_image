@@ -7,11 +7,10 @@ Created on Sun Sep  1 20:03:29 2019
 
 from argparse import ArgumentParser
 from os.path import realpath
-from PIL import Image
 
 import cv2
-import numpy as np
-import skimage as ski
+#import numpy as np
+#import skimage as ski
 
 args = ArgumentParser("im2ccode")
 args.add_argument("--im", help = "PATH de la imagen a convertir.", metavar = "IMFILE")
